@@ -7,6 +7,8 @@ public class App
     	BedroomBuilder babyroom = new BedroomBuilder().setCeilingHeight(300).setDouble(false);
     	
     	System.out.println("Babyroom created with ceiling of height "+ babyroom.getCeilingHeight());
+    	
+    	PrintSpooler spooler = PrintSpooler.getInstance();
     }
 }
 
